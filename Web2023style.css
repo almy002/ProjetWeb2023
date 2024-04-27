@@ -1,0 +1,153 @@
+h1
+{
+	text-align: center;
+	background-color: teal;
+	color: white;
+}
+
+h2
+{
+	text-align: center;
+}
+
+h2, h3
+{
+	color: navy;
+}
+
+.centered
+{
+	text-align: center;
+}
+
+nav
+{
+	font-style: italic;
+	color: black;
+	text-align: left;
+	border-width: 2px; 
+	border-style: double;
+	border-color: teal;
+}
+
+.menu
+{
+	display: flex;
+	padding: 0;
+	justify-content: center;
+}
+
+.menu li
+{
+	list-style-type: none;
+}
+
+.menu a
+{
+	display: block;
+	min-width: 255px;
+	
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: teal;
+	background-color: #9EDEC6;
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	
+	transition: all 1s;
+}
+
+.menu a.actif
+{
+	background-color: black;
+	color: white;
+}
+
+.menu a:hover
+{
+	background-color: #DE9EB6;
+	border-color: maroon;
+	color: white;
+}
+
+.menu a:hover.actif
+{
+	background-color: silver;
+	color: maroon;
+}
+
+section
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: teal;
+	text-align: center;
+	background-color: #9EDEC6;
+}
+
+article
+{
+	text-align: center;
+}
+
+aside
+{
+	text-align: left;
+	float: right;
+	margin-right: 10px;
+	
+	width: 20%;
+	
+	border-width: 2px;
+	border-color: white;
+	border-style: simple;
+	background-color: white;
+}
+
+.summary
+{
+	font-style: oblique;
+}
+
+.explication
+{
+	text-align: left;
+}
+
+.important
+{
+	color: red;
+}
+
+.center_me
+{
+	margin-left: 20%;
+}
+
+footer
+{
+	color: white;
+	background-color: teal;
+}
+
+footer a
+{
+	color: #9EDEC6;
+	background-color: white;
+	border-width: 1px;
+	border-color: teal;
+	border-style: solid;
+	
+	padding: 0.4 rem 0;
+	margin: 0.3 rem;
+}
+
+footer a:hover
+{
+	color: silver;
+	background-color: maroon;
+	border-color: white;
+	
+	transition: all 1s;
+}
